@@ -1,0 +1,129 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@200;300;400;600;700&display=swap');
+body{
+  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+button{
+    background: rgba(224, 44, 109, 1);
+    color: #ffffff;
+    border-radius: 41px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+}
+.header_text h1{
+    
+        font-weight: 700;
+        font-size: 52px;
+        color: #3A3A3A;
+    
+}
+.header_text p{
+    font-size: 16px;
+    color: #3A3A3A;
+    width: 80%;
+   
+}
+
+.header_text button i{
+    margin-left: 5px;
+}
+.header_container{
+margin-top: 50px;
+margin-bottom: 50px;
+ display: grid;
+ grid-template-columns: auto auto;
+ grid-gap: 40px;
+ align-items: center;
+ justify-content: center;
+  
+}
+.header_image{
+    background: url(./logos/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+   
+    
+}
+.header_image img{
+   width: 100%;
+}
+/* Main section is start */
+.our_client{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid  #ddd; 
+    padding: 20px 0px;
+    border-bottom: 2px solid #ddd; 
+}
+.popular_collections{
+    margin: 100px 0px;
+}
+
+.collection_title{
+ text-align: center;
+ margin-bottom: 50px;
+}
+.collection_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+.collection_items h3{
+    margin: 0px;
+    font-weight: 500;
+}
+.collection_items h4 , p{
+    margin: 0px;
+    color: #3A3A3A;
+}
+.popular_collection{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+    padding: 10px;
+
+}
+.popular_collection img{
+    width: 100%;
+}
+.popular_collection h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.popular_collection p i{
+    color:orange;
+}
+.popular_collection p span{
+    color: rgba(94, 99, 102, 1);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+/* Blog Section  */
+.blog_section{
+    margin: 50px 0px;
+   display: grid;
+   grid-template-columns: 40% 60%;
+
+   align-items: center;
+}
+.blog_section h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+.blog_section p{
+    margin-bottom: 20px;
+    width: 75%;
+    text-align: justify;
+}
