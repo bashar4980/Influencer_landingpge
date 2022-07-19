@@ -14,6 +14,7 @@ body{
     margin: 0px auto;
 }
 button{
+    margin-top: 20px;
     background: rgba(224, 44, 109, 1);
     color: #ffffff;
     border-radius: 41px;
@@ -123,7 +124,7 @@ margin-bottom: 50px;
     font-weight: 700;
 }
 .blog_section p{
-    margin-bottom: 20px;
+   
     width: 75%;
     text-align: justify;
 }
